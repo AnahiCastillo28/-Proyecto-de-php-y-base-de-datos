@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono-pagina.jpg">
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title>Marcas</title>
+</head>
+    <style>
+        .card{
+            display: grid;
+            font-family: Arial Black, Helvetica, sans-serif;
+            text-align: center;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        .truper{ 
+            background-color: rgb(62, 65, 233);
+            padding-bottom: 15px;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        a{
+            padding-bottom: 10px;
+            background-color: orange;
+            font-family: Arial Black, Helvetica, sans-serif;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .hermex{
+            padding-bottom: 15px;
+            background-color: rgb(212, 17, 17);
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .fiero{
+            padding-bottom: 15px;
+            background-color: rgba(29, 189, 15, 0.986);
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        img{
+            width: 100%;
+        }
+        @media (max-width: 568px){ /*Minimo de width 300px a maximo de 500px*/
+        }
+        .card{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+        }
+        @media (max-width: 200px){
+        }
+        .card{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 2rem;  
+        }
+    </style>
+<body>
+    <div class="marcas">
+            <div class="card">
+                <h2><a name="Marcas"></a>¡Tus Marcas favoritas están aquí!</h2>
+                    <div class="truper"><br>
+                        <img src="images/truper1.png" alt="">
+                        <p>TRUPER</p>
+                        <span></span>
+                        <br>
+                        <a href="truper.html">Entrar</a><br><br>
+                    </div>
+                    <div class="hermex"><br>
+                        <img src="images/hermex.jpg" alt="">
+                        <p>HERMEX</p>
+                        <span></span>
+                        <br>
+                        <a href="hermex.html">Entrar</a><br><br>
+                    </div>
+                    <div class="fiero"><br>
+                        <img src="images/fiero1.png" alt="">
+                        <p>FIERO</p>
+                        <span></span>
+                        <br>
+                        <a href="fiero.html">Entrar</a><br><br>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <br><br>
+            <a href="index.html">Volver a Inicio</a><br><br>
+        </form>
+</body>
+</html>

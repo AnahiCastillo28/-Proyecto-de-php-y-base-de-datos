@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono-pagina.jpg">
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title> Servicios </title>
+</head>
+<style>
+    .card{
+        display: grid;
+        font-family: Arial Black, Helvetica, sans-serif;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .servicio{ 
+        padding-bottom: 10px;
+        background-color: rgb(230, 191, 62);
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    a{
+        padding-bottom: 10px;
+        background-color: orange;
+        font-family: Arial Black, Helvetica, sans-serif;
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    @media (max-width: 168px){ /*Minimo de width 300px a maximo de 500px*/
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (max-width: 100px){
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;  
+    }
+</style>
+<body>
+    <form action="producto.html" method="post" class="formulario">
+        <div class="servicios">
+            <div class="card">
+                <div class="servicio">
+                    <h2><a name="Servicios"></a>¡Quieres construir algo pero no sabes, no te preocupes
+                            contactanos y llegaremos a tu hogar en menos de 15 minutos! </h2>
+                        <img src="images/servicio.jpg" alt="">
+                        <p>¡Contactanos ya! Llama a este número</p>
+                        <span>8387376893</span><br>
+                        <br>
+                        <a href="index.html">Volver a Inicio</a><br><br>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </form>
+</body>
+</html>

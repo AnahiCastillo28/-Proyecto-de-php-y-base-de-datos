@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono-pagina.jpg">
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title>Marcas</title>
+</head>
+<style>
+    .card{
+        display: grid;
+        font-family: Arial Black, Helvetica, sans-serif;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .producto21{ 
+        padding-bottom: 15px;
+        background-color: rgba(94, 216, 13, 0.658);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    a{
+        padding-bottom: 15px;
+        background-color: orange;
+        font-family: Arial Black, Helvetica, sans-serif;
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .producto22{
+        padding-bottom: 15px;
+        background-color: rgb(24, 120, 165);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .producto23{
+        padding-bottom: 15px;
+        background-color: rgba(236, 11, 22, 0.74);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    @media (max-width: 568px){ /*Minimo de width 300px a maximo de 500px*/
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (max-width: 200px){
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;  
+    }
+</style>
+<body>
+    <main>
+        <div class="grid">
+            <div class="producto21">
+                <h1>Nuestros productos</h1>
+               <img src="images/F alambre de puas.jpg" alt="imagen herramienta"></a><br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Alambre de puas</p>
+                    <p class="producto__precio">$1,215.00</p>
+                </div>
+            </div> <!-- Fin Producto1 --><br><br>
+            <div class="producto22">
+                <img src="images/F cadena.jpg" alt="imagen herramienta"></a><br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Cadena</p>
+                    <p class="producto__precio">$570.00</p>
+                </div>
+            </div> <!-- Fin Producto2 --><br><br>
+            <div class="producto23">
+                <img src="images/F diablo.jpg" alt="imagen herramienta"></a><br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Diablo</p>
+                    <p class="producto__precio">$1,785.00</p>
+                </div>
+            </div> <!-- Fin Producto3 --> <br>
+            <br>
+            <a href="marcas.html">Volver</a>
+        </div><br>
+    </main>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono-pagina.jpg">
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title>Marcas</title>
+</head>
+<style>
+    .card{
+        display: grid;
+        font-family: Arial Black, Helvetica, sans-serif;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .producto11{ 
+        padding-bottom: 15px;
+        background-color: rgb(28, 31, 219);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    a{
+        padding-bottom: 15px;
+        background-color: orange;
+        font-family: Arial Black, Helvetica, sans-serif;
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .producto12{
+        padding-bottom: 15px;
+        background-color: rgb(255, 77, 77);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .producto13{
+        padding-bottom: 15px;
+        background-color: rgba(147, 22, 163, 0.829);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    @media (max-width: 168px){ /*Minimo de width 300px a maximo de 500px*/
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (max-width: 100px){
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;  
+    }
+</style>
+<body>
+    <main>
+        <div class="grid">
+            <div class="producto11">
+                <h1>Nuestros productos</h1>
+                <img src="images/T carretilla.jpg" alt="imagen herramienta"></a><br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Carretilla</p>
+                    <p class="producto__precio">$1,295.00</p>
+                </div>
+            </div> <!-- Fin Producto1 --> <br><br>
+            <div class="producto12">
+                <img src="images/T juego de herramientas.jpg" alt="imagen herramienta"></a><br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Juego de herramientas</p>
+                    <p class="producto__precio">$569.00</p>
+                </div>
+            </div> <!-- Fin Producto2 --> <br><br>
+            <div class="producto13">
+                <img src="images/T kit.jpg" alt="imagen herramienta"></a><br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Kit de herramientas</p>
+                    <p class="producto__precio">$2,215.00</p>
+                </div>
+            </div> <!-- Fin Producto3 -->
+            <br><br>
+            <a href="marcas.html">Volver</a>
+        </div><br>
+    </main>
+</body>
+</html>

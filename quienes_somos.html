@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono-pagina.jpg">
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title>Marcas</title>
+</head>
+<style>
+    .card{
+        display: grid;
+        font-family: Arial Black, Helvetica, sans-serif;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .herramienta{ 
+        padding-bottom: 15px;
+        background-color: rgba(226, 180, 29, 0.658);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    a{
+        padding-bottom: 10px;
+        background-color: orange;
+        font-family: Arial Black, Helvetica, sans-serif;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    @media (max-width: 168px){ /*Minimo de width 300px a maximo de 500px*/
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (max-width: 100px){
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;  
+    }
+</style>
+<body>
+    <form action="index.html" method="post" class="formulario">
+        <div class="quienes_somos">
+                <div class="card">
+                    <div class="herramienta">
+                        <h2><a name="Secciones"></a>¡Una empresa de prestigio!</h2>
+                        <img src="images/2.jpg" alt="">
+                        <h4>Una empresa organizada
+                            <p> Para la empresa Construcstore ser socialmente responsable es un compromiso con nuestros clientes, 
+                            proveedores y colaboradores; pues creemos que de esta forma podemos ayudar a nuestra sociedad a tener un mayor crecimiento y un desarrollo sustentable</p>
+                        </h4>
+                        <h4>Vision
+                            <p>Nuestra vision como empresa es al ser una empresa 100% mexicana, poder apoyar,
+                                nuestros principales valores son la honestidad, respeto, profesionalismo y pasión .
+
+                            </p>
+                        </h4>
+                        <h4>Mision
+                            <p> 
+                                Para construcstore ser socialmente responsable es un compromiso con nuestros clientes, 
+                                proveedores, usuarios y colaboradores; nuestra misión es entregar el material de mejor calidad que se pueda al mejor precio, 
+                                contamos con varias sucursales a lo largo del país y brindamos el mejor servicio a nuestros clientes.
+
+                            </p>
+                        </h4>
+                        <br>
+                        <a href="index.html">Volver a Inicio</a><br><br>
+                    </div>
+                </div><br>
+            <!-- </div> -->
+        </form>
+</body>
+</html>

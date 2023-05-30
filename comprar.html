@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono-pagina.jpg"> 
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title>Iniciar Sesión</title>
+</head>
+<style>
+    .card{
+        display: grid;
+        font-family: Arial Black, Helvetica, sans-serif;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .compra{ 
+        padding-bottom: 10px;
+        background-color: rgba(216, 196, 13, 0.658);
+        font-family: Arial Black, Helvetica, sans-serif;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .usuario{ 
+        padding-bottom: 10px;
+        background-color: rgba(94, 216, 13, 0.658);
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    a{
+        padding-bottom: 10px;
+        background-color: orange;
+        font-family: Arial Black, Helvetica, sans-serif;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .password{
+        padding-bottom: 10px;
+        background-color: rgb(24, 120, 165);
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .telefono{
+        padding-bottom: 10px;
+        background-color: rgba(236, 11, 22, 0.74);
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .producto{
+        padding-bottom: 10px;
+        background-color: rgba(236, 11, 168, 0.74);
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    @media (max-width: 568px){ /*Minimo de width 300px a maximo de 500px*/
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (max-width: 200px){
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;  
+    }
+</style>
+<body>
+        <form action="comprar.php" method="post" class="formulario">
+            <div class="compra"><h2 class="Comprar productos">Datos necesarios para la compra</h2></div>
+
+            <div class="usuario">
+                <input type="email" name="user" id="" placeholder="Ingresa tu Correo" class="usuario-input" required>
+            </div>
+            <div class="password">
+                <input type="password" name="password" id="" placeholder="Ingresa tu Contraseña" class="password-input" required>
+            </div>
+            <div class="telefono">
+                <input type="tel" name="telefono" id="" placeholder="(Numero Telefonico)" required>
+            </div>
+            <div class="producto">
+                <input type="producto" name="producto" id="" placeholder="(Producto elegido)" required>
+            </div>
+            <input type="submit" value="Comprar producto" class="enviar-datos">
+        </form>
+        <br><br>
+        <a href="index.html">Volver a Inicio</a>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icono-pagina.jpg">
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title>Marcas</title>
+</head>
+<style>
+    .card{
+        display: grid;
+        font-family: Arial Black, Helvetica, sans-serif;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+    .producto1{ 
+        padding-bottom: 15px;
+        background-color: rgb(233, 20, 20);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    a{
+        padding-bottom: 15px;
+        background-color: orange;
+        font-family: Arial Black, Helvetica, sans-serif;
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .producto2{
+        padding-bottom: 15px;
+        background-color: rgba(27, 153, 142, 0.658);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    .producto3{
+        padding-bottom: 15px;
+        background-color: rgba(224, 21, 106, 0.822);
+        padding: 15px;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    @media (max-width: 568px){ /*Minimo de width 300px a maximo de 500px*/
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    @media (max-width: 200px){
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;  
+    }
+</style>
+<body>
+    <main>
+        <div class="grid">
+            <div class="producto1">
+                <h1>Nuestros productos</h1>
+                <img src="images/H candados.jpg" alt="imagen herramienta"></a> <br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Candados</p>
+                    <p class="producto__precio">$82.00</p>
+                </div>
+            </div> <!-- Fin Producto1 --> <br><br>
+            <div class="producto2">
+                <img src="images/H cerradura.jpg" alt="imagen herramienta"></a> <br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Cerraduras</p>
+                    <p class="producto__precio">$179.00</p>
+                </div>
+            </div> <!-- Fin Producto2 --> <br><br>
+            <div class="producto3">
+                <img src="images/H duplicadora de llaves.jpg" alt="imagen herramienta"></a> <br><br>
+                <div class="producto__informacion">
+                    <a href="comprar.html">Comprar</a><br><br>
+                    <p class="producto__nombre">Duplicadora de llaves</p>
+                    <p class="producto__precio">$11,350.00</p>
+                </div>
+            </div> <!-- Fin Producto3 -->
+            <br><br>
+            <a href="marcas.html">Volver</a>
+        </div><br>
+    </main>
+    
+</body>
+</html>
